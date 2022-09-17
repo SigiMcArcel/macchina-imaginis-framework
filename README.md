@@ -15,6 +15,15 @@ The control software is written in C++.
 The first control software was satisfactory in function, but not very flexible to reflect the demands of the artists and the diversity of the modules.
 Therefore, the software prototype is now divided into different libraries in order to obtain greater flexibility.
 
-#software structure
+# software konzept
+## Hardware abstraction
+As with a PLC, the inputs and outputs are written to a process image or read from the process image.
+For this purpose, the hardware interfaces are standardized with a C++ interface.
+The control software uses the process image to set or use the inputs and outputs.
+The IO modules are configured using strings, since no standardization is possible here.
 
+Input Prozess image
 
+*********                 ********************
+*       *                 * IO Modul e.g SPI *
+*       *                 ******************** 
