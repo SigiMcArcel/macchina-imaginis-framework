@@ -7,3 +7,6 @@
 [submodule "midriver"]
 	path = midriver
 	url = https://github.com/SigiMcArcel/midriver.git
+[submodule "miio"]
+	path = miio
+	url = https://github.com/SigiMcArcel/miio.git
