@@ -15,28 +15,31 @@ The control software is written in C++.
 The first control software was satisfactory in function, but not very flexible to reflect the demands of the artists and the diversity of the modules.
 Therefore, the software prototype is now divided into different libraries in order to obtain greater flexibility.
 
+#yocto 
+The libraries are included in the meta-macchinaimaginis yocto layer
+
 # software konzept
-# Overview
+# overview
 
 ![alt text](https://github.com/SigiMcArcel/macchina-imaginis-framework/blob/main/blob/Overview.png)
 
 The Framework contains following libraries:
 Further Informations are find in the library repository itself
 
-## Drivers -> midriver
+## drivers -> midriver
 Contains the low level acces to the Raspberry PI Interfaces and GPIO.
 Used by miio
-## IO Modules /IOManager -> miio
+## io modules /io manager -> miio
 Contains the abstraction of the hardware interfaces and managing of the processimage the io modules and io module calls. 
-## Sound -> misound
+## sound -> misound
 Contains classes for playing sounds
-## Timers,thread handling -> miutils
+## timers,thread handling -> miutils
 Contains classses for Timing, Threading ...
 
 ![alt text](https://github.com/SigiMcArcel/macchina-imaginis-framework/blob/main/blob/Overview.png)
 
 
-## Hardware abstraction
+## hardware abstraction
 As with a PLC, the inputs and outputs are written to a process image or read from the process image.
 For this purpose, the hardware interfaces are standardized with a C++ interface.
 The control software uses the process image to set or use the inputs and outputs.
