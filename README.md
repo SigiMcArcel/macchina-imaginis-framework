@@ -16,12 +16,28 @@ The first control software was satisfactory in function, but not very flexible t
 Therefore, the software prototype is now divided into different libraries in order to obtain greater flexibility.
 
 # software konzept
+# Overview
+The Framework contains following libraries:
+Further Informations are find in the library repository itself
+
+## Drivers -> midriver
+Contains the low level acces to the Raspberry PI Interfaces and GPIO.
+Used by miio
+## IO Modules /IOManager -> miio
+Contains the abstraction of the hardware interfaces and managing of the processimage the io modules and io module calls. 
+## Sound -> misound
+Contains classes for playing sounds
+## Timers,thread handling -> miutils
+Contains classses for Timing, Threading ...
+
+![alt text](https://github.com/SigiMcArcel/macchina-imaginis-framework/blob/main/blob/Overview.png)
+
+
 ## Hardware abstraction
 As with a PLC, the inputs and outputs are written to a process image or read from the process image.
 For this purpose, the hardware interfaces are standardized with a C++ interface.
 The control software uses the process image to set or use the inputs and outputs.
 The IO modules are configured using strings, since no standardization is possible here.
 
-Input Prozess image
 
 ![alt text](https://github.com/SigiMcArcel/macchina-imaginis-framework/blob/main/blob/IOModulConcept.png)
