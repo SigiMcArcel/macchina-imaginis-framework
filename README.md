@@ -17,6 +17,9 @@ Therefore, the software prototype is now divided into different libraries in ord
 
 # software konzept
 # Overview
+
+![alt text](https://github.com/SigiMcArcel/macchina-imaginis-framework/blob/main/blob/Overview.png)
+
 The Framework contains following libraries:
 Further Informations are find in the library repository itself
 
