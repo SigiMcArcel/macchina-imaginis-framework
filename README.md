@@ -24,6 +24,4 @@ The IO modules are configured using strings, since no standardization is possibl
 
 Input Prozess image
 
-*********                 ********************
-*       *                 * IO Modul e.g SPI *
-*       *                 ******************** 
+![alt text](http://url/to/img.png)
