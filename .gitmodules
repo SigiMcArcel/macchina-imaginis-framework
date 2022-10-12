@@ -10,3 +10,6 @@
 [submodule "miio"]
 	path = miio
 	url = https://github.com/SigiMcArcel/miio.git
+[submodule "miapplication"]
+	path = miapplication
+	url = https://github.com/SigiMcArcel/miapplication.git
