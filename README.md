@@ -13,7 +13,7 @@ A Raspberry PI 3 or 4 is used as the control and sound output device.
 The control software is written in C++.
 
 The first control software was satisfactory in function, but not very flexible to reflect the demands of the artists and the diversity of the modules.
-Therefore, the software prototype is now divided into different libraries in order to obtain greater flexibility.
+Therefore, the software prototype is now divided into different libraries in order to obtain greater flexibility.For different platforms as is well
 
 #yocto 
 The libraries are included in the meta-macchinaimaginis yocto layer
@@ -28,6 +28,7 @@ Further Informations are find in the library repository itself
 
 ## drivers -> midriver
 Contains the low level acces to the Raspberry PI Interfaces and GPIO.
+This layer adapted for Other Linux Platforms
 Used by miio
 ## io modules /io manager -> miio
 Contains the abstraction of the hardware interfaces and managing of the processimage the io modules and io module calls. 
@@ -35,9 +36,6 @@ Contains the abstraction of the hardware interfaces and managing of the processi
 Contains classes for playing sounds
 ## timers,thread handling -> miutils
 Contains classses for Timing, Threading ...
-
-![alt text](https://github.com/SigiMcArcel/macchina-imaginis-framework/blob/main/blob/Overview.png)
-
 
 ## hardware abstraction
 As with a PLC, the inputs and outputs are written to a process image or read from the process image.
