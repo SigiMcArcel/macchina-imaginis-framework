@@ -5,4 +5,5 @@ git submodule add https://github.com/SigiMcArcel/midriver.git
 git submodule add https://github.com/SigiMcArcel/miio.git
 git submodule add https://github.com/SigiMcArcel/mimodules.git
 git submodule add -f https://github.com/SigiMcArcel/miapplication.git
+git submodule add -f https://github.com/SigiMcArcel/micomponents.git
 pause

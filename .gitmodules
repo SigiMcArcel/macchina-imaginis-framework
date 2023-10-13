@@ -13,3 +13,9 @@
 [submodule "miapplication"]
 	path = miapplication
 	url = https://github.com/SigiMcArcel/miapplication.git
+[submodule "mimodules"]
+	path = mimodules
+	url = https://github.com/SigiMcArcel/mimodules.git
+[submodule "micomponents"]
+	path = micomponents
+	url = https://github.com/SigiMcArcel/micomponents.git
