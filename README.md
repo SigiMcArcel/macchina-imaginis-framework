@@ -37,9 +37,6 @@ Contains classes for playing sounds
 ## timers,thread handling -> miutils
 Contains classses for Timing, Threading ...
 
-![alt text](https://github.com/SigiMcArcel/macchina-imaginis-framework/blob/main/blob/Overview.png)
-
-
 ## hardware abstraction
 As with a PLC, the inputs and outputs are written to a process image or read from the process image.
 For this purpose, the hardware interfaces are standardized with a C++ interface.
