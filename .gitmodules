@@ -19,3 +19,6 @@
 [submodule "micomponents"]
 	path = micomponents
 	url = https://github.com/SigiMcArcel/micomponents.git
+[submodule "mitasks"]
+	path = mitasks
+	url = https://github.com/SigiMcArcel/mitasks.git
