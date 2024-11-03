@@ -22,3 +22,6 @@
 [submodule "mitasks"]
 	path = mitasks
 	url = https://github.com/SigiMcArcel/mitasks.git
+[submodule "mitools"]
+	path = mitools
+	url = https://github.com/SigiMcArcel/mitools.git

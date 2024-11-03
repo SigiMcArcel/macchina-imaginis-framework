@@ -7,4 +7,5 @@ git submodule add https://github.com/SigiMcArcel/mimodules.git
 git submodule add -f https://github.com/SigiMcArcel/miapplication.git
 git submodule add -f https://github.com/SigiMcArcel/micomponents.git
 git submodule add -f https://github.com/SigiMcArcel/mitasks.git
+git submodule add -f https://github.com/SigiMcArcel/mitools.git
 pause
